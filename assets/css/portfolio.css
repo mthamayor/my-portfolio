@@ -1,0 +1,87 @@
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+.custom-text-primary{
+    color: #02aab0;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(22, 28, 45, 0)
+}
+
+body {
+    margin: 0;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #fff
+}
+
+.nav{
+    height: 50px;
+}
+
+.popup-button {
+    display: inline-block;
+    background-size: 200% 200% !important;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 0.8em 1.5em;
+    border-radius: 0.3em;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+    background: linear-gradient(25deg,#02aab0, #00cdac);
+}
+
+.nav-logo{
+    color: #02aab0;
+}
+
+.popup-button:hover {
+    background-size: 110% 110% !important;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.nav-link{
+    color: #696969;
+    letter-spacing:  0.1em;
+    font-size: 16px;
+}
+
+.nav-link.active{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:#02aab0;
+    color: #02aab0;
+}
+
+.nav-link:hover, a:hover{
+    color: #02aab0;
+    text-decoration: none;
+}
+
+.custom-card-image-container{
+    flex: 1;
+}
+
+.custom-card-image-details{
+    flex: 2;
+}
+
+.custom-store-btn{
+    height: 44px;
+}
+
+.social{
+    height: 30px;
+}
